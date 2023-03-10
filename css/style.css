@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(12, 2, 21);
+    }
+    h1{
+    color: ghostwhite;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 40px;
+    font-weight: lighter;	
+    }
+    p{
+        color: ghostwhite;
+        font-size: 30px;
+    }
