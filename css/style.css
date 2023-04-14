@@ -1,45 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body{
     background-color:#251412;
     }
 h1{
+    font-family:'Open Sans', sans-serif ;
+    font-size:100%;
     color: ghostwhite;
     text-align: center;
-    justify-content: space-between;
-    font-weight: lighter;	
+    padding-top:1.5%;
+    padding-bottom:1.5%;
     }
 h2{
+    font-family:'Open Sans', sans-serif ;
+    font-size:100%;
     color: ghostwhite;
     text-align: center;
-    justify-content: space-between;
-    font-weight: lighter;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
 }
 h3{
+    font-family:'Open Sans', sans-serif ;
+    font-size:100%;
     color: ghostwhite;
     text-align: center;
-    justify-content: space-between;
-    font-weight: lighter;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
 }
  p{
-        color: ghostwhite;
-        font-size:100%;
-    }
+    padding:1.5%;
+    color: ghostwhite;
+    font-size:100%;
+    font-family:'Open Sans',sans-serif;
+}
 header{
     width:100%;
     background-color: #191A1F;
+    padding:1%;
     }
 nav{
 
 }
 .logo {
-    text-align:center;
-    font-size:100%;
+    display: flex;
+    padding-left:15%;
+
 } 
 .container{
     width:80%;
     background-color:#412729;
     margin: auto;
+    border:1px solid gold ;
 }
 .banner{
+    padding-top:1%;
+    padding-bottom:1%;
     width:100%;
 }
 footer{
@@ -50,7 +65,12 @@ footer{
     display:flex;
     justify-content:center;
     width:30%;
+    border: 1px solid gold;
 }
 .logo{
     width:60%;
+}
+cite{
+    font-style: italic;
+    color: gold;
 }
