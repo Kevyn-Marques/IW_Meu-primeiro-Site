@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
 
 body{
     background-color:#251412;
     }
 h1{
     font-family:'Open Sans', sans-serif ;
-    font-size:100%;
+    font-size:2.0em;
+    font-style:bold;
     color: ghostwhite;
     text-align: center;
     padding-top:1.5%;
@@ -13,7 +14,8 @@ h1{
     }
 h2{
     font-family:'Open Sans', sans-serif ;
-    font-size:100%;
+    font-size:2.0em;
+    font-style:bold;
     color: ghostwhite;
     text-align: center;
     padding-top:1.5%;
@@ -21,7 +23,8 @@ h2{
 }
 h3{
     font-family:'Open Sans', sans-serif ;
-    font-size:100%;
+    font-size:2.0em;
+    font-style:bold;
     color: ghostwhite;
     text-align: center;
     padding-top:1.5%;
@@ -29,13 +32,14 @@ h3{
 }
  p{
     padding:1.5%;
+    line-height:1.5;
     color: ghostwhite;
     font-size:100%;
-    font-family:'Open Sans',sans-serif;
-}
+    font-family: 'Castoro Titling', cursive ;
+ }
 header{
     width:100%;
-    background-color: #191A1F;
+    background-color:#8D6116;
     padding:1%;
     }
 nav{
@@ -44,7 +48,6 @@ nav{
 .logo {
     display: flex;
     padding-left:15%;
-
 } 
 .container{
     width:80%;
@@ -62,15 +65,28 @@ footer{
     width:100%
 }
 .pessoas{
-    display:flex;
-    justify-content:center;
+    border:1px solid gold;
+    margin-left:35%;
     width:30%;
-    border: 1px solid gold;
+
 }
 .logo{
     width:60%;
 }
-cite{
+.ds{
+    font-weight: lighter;
+    color: gold;
+    background-color:#251412;
+    margin-right: 30%;
+    margin-left:30%;
+    font-size:1.2em;
+    border: solid gold;
+
+}
+    
+.boss{
+    padding-top:1.5%;
+    padding-left:25%;
     font-style: italic;
     color: gold;
 }
