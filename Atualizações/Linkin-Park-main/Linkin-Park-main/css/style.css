@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Open+Sans&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#251412;
+    }
+h1{
+    font-family:'Castoro Titling' cursive ;
+    font-size:2.0em;
+    font-style:bold;
+    color: ghostwhite;
+    text-align: center;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    }
+h2{
+    font-family:'Castoro Titling' cursive ;
+    font-style:bold;
+    font-size:2.0em;
+    color: ghostwhite;
+    text-align: center;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+h3{
+    font-family:'Castoro Titling' cursive ;
+    font-size:2.0em;
+    font-style:bold;
+    color: ghostwhite;
+    text-align: center;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+ p{
+    text-align: justify;
+    font-family:'Open Sans', sans-serif ;
+    padding:1.5%;
+    line-height:1.5;
+    color: ghostwhite;
+    font-size:100%;
+   
+ }
+header{
+    border-bottom: 2px solid gold;
+    width:100%;
+    background-color:#8D6116;
+    padding:1%;
+ }
+.logo {
+    width:30%;
+    display: flex;
+    padding-left:15%;
+} 
+.container{
+    border-bottom: 2px solid gold;
+    width:80%;
+    background-color:#412729;
+    margin: auto;
+    border:1px solid gold ;
+    border-radius:50px;
+}
+.banner{
+    padding-top:1%;
+    padding-bottom:1%;
+    width:100%;
+}
+footer{
+    background-color:#00010D;
+    width:100%
+}
+.pessoas{
+    margin-bottom:3%;
+    border:1px solid gold;
+    margin-left:35%;
+    width:30%;
+
+}
+.logo{
+    width:60%;
+}
+.ds{
+    font-family:'Open sans',sans-serif;
+    font-weight: lighter;
+    color: ghostwhite;
+    margin-right: 30%;
+    margin-left:30%;
+    font-size:95%;
+}
+.boss{
+    padding-top:1.5%;
+    padding-left:25%;
+    font-style: italic;
+    color: gold;
+}
+.site{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    margin-left:40%;
+    text-align:center;
+    text-decoration: none;
+    color:ghostwhite;
+    font-family: 'Castoro Titling', cursive ;
+ }
+ .gif{
+    margin-left:35%;
+    width:30%;
+}
+.m:hover{
+     transform: scale(105%);
+    transition:0.1s;
+
+ }
+.menu:link{
+  color: ghostwhite;
+}
+ .menu:visited{
+   color: gold;
+}
+.menu:active{
+  color: gold;
+}
+#jogo{
+  border-bottom: 2px solid gold;
+}
+#pers{
+  border-bottom: 2px solid gold;
+}
+.dir{
+    float:right;
+    width:30%;
+    margin-left: 2%;
+    margin-right:2%;
+}
+.linha{
+    display:flex;
+    flex-flow:row wrap;
+    text-align: center;
+}
+.col-6{
+    width: 50%;
+}
+@media(max-width: 600px){
+    .linha{
+        flex-direction: column;
+    }
+    .col-6{
+        width:100%;
+    }
+}
