@@ -42,10 +42,10 @@ h3{
    
  }
 header{
+    padding-left:;
     border-bottom: 2px solid gold;
     width:100%;
     background-color:#8D6116;
-    padding:1%;
  }
 .logo {
     width:30%;
@@ -70,6 +70,7 @@ footer{
     width:100%
 }
 .pessoas{
+    margin-top:1%;
     margin-bottom:3%;
     border:1px solid gold;
     margin-left:35%;
@@ -106,12 +107,17 @@ footer{
     color:ghostwhite;
     font-family: 'Castoro Titling', cursive ;
  }
+ .m{
+    display: block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+ }
  .gif{
     margin-left:35%;
     width:30%;
 }
 .m:hover{
-     transform: scale(105%);
+    transform: scale(105%);
     transition:0.1s;
 
  }
@@ -135,4 +141,37 @@ footer{
     width:30%;
     margin-left: 2%;
     margin-right:2%;
+}
+.linha{
+    display:flex;
+    flex-flow:row wrap;
+    text-align: center;
+}
+.col-6{
+    width: 50%;
+}
+@media(max-width: 600px){
+    .linha{
+        flex-direction: column;
+    }
+    .col-6{
+        width:100%;
+    }
+}
+.git{
+    font-family: font-family: 'Castoro Titling', cursive ;;
+    color: ghostwhite;
+}
+.git:hover{
+    transform: scale(105%);
+    transition:0.1s;
+}
+.git:link{
+    color: ghostwhite;
+}
+.git:visited{
+    color: goldenrod;
+}
+.video{
+    margin-left:20%;
 }
