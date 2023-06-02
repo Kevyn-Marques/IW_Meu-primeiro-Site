@@ -175,3 +175,17 @@ footer{
 .video{
     margin-left:20%;
 }
+.img-card{
+    margin-left: 10%;
+    background-image:  linear-gradient(to bottom right,#251412,#3B3637);
+    width: 90%;
+    border-style: none;
+    border-radius: 30px;
+    box-shadow: 10px 10px #251412;
+    transition: 0.3s; 
+    margin-bottom: 3%;  
+}
+.img-card:hover{
+    transform: scale(102%);
+
+}
