@@ -176,7 +176,8 @@ footer{
     margin-left:20%;
 }
 .img-card{
-    margin-left: 10%;
+    margin-left:10%;
+    margin-right:10%;
     background-image:  linear-gradient(to bottom right,#251412,#3B3637);
     width: 90%;
     border-style: none;
