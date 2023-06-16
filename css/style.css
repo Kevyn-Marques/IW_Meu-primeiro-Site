@@ -42,7 +42,6 @@ h3{
    
  }
 header{
-    padding-left:;
     border-bottom: 2px solid gold;
     width:100%;
     background-color:#8D6116;
@@ -159,8 +158,8 @@ footer{
     }
 }
 .git{
-    font-family: font-family: 'Castoro Titling', cursive ;;
-    color: ghostwhite;
+    font-family:'Castoro Titling', cursive ;
+    color:ghostwhite;
 }
 .git:hover{
     transform: scale(105%);
@@ -188,5 +187,28 @@ footer{
 }
 .img-card:hover{
     transform: scale(102%);
-
+}
+#centro{
+    text-align: center;
+}
+.msc{
+    margin-top: 3%;
+    font-family: 'Castoro Titling', cursive;
+    border-collapse: collapse;
+    width: 100%;
+}
+.msc td{
+    color:ghostwhite;
+    border: 1px solid gold;
+    text-align: left;
+    padding: 8px;
+}
+.msc th{
+    border: none;
+    text-align: left;
+    padding: 8px;
+    background-color: #8D6116;
+}
+tr:nth-child(even){
+    background-color:#251412;
 }
