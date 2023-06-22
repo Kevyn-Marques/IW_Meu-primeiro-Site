@@ -39,7 +39,6 @@ h3{
     line-height:1.5;
     color: ghostwhite;
     font-size:100%;
-   
  }
 header{
     border-bottom: 2px solid gold;
@@ -74,7 +73,6 @@ footer{
     border:1px solid gold;
     margin-left:35%;
     width:30%;
-
 }
 .logo{
     width:60%;
@@ -121,19 +119,19 @@ footer{
 
  }
 .menu:link{
-  color: ghostwhite;
+    color: ghostwhite;
 }
  .menu:visited{
-   color: gold;
+    color: gold;
 }
 .menu:active{
-  color: gold;
+    color: gold;
 }
 #jogo{
-  border-bottom: 2px solid gold;
+    border-bottom: 2px solid gold;
 }
 #pers{
-  border-bottom: 2px solid gold;
+    border-bottom: 2px solid gold;
 }
 .dir{
     float:right;
