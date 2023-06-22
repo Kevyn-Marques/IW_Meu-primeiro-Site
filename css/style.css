@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color:#251412;
+    background-color:black;
     }
 h1{
     font-family:'Castoro Titling' cursive ;
@@ -116,7 +116,6 @@ footer{
 .m:hover{
     transform: scale(105%);
     transition:0.1s;
-
  }
 .menu:link{
     color: ghostwhite;
@@ -207,6 +206,9 @@ footer{
     padding: 8px;
     background-color: #8D6116;
 }
-tr:nth-child(even){
-    background-color:#251412;
+tr:hover{
+  background-color:#251412;
+}
+.d{
+  color:gold;
 }
