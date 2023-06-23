@@ -212,3 +212,6 @@ tr:hover{
 .d{
   color:gold;
 }
+.icone{
+    list-style-image: url(../img/menu.gif);
+}
