@@ -45,10 +45,11 @@ header{
     width:100%;
     background-color:#8D6116;
  }
-.logo {
-    width:30%;
+.logot {
+    width: 35%;
     display: flex;
-    padding-left:15%;
+    padding-left:30%;
+    padding-bottom:3%;
 } 
 .container{
     border-bottom: 2px solid gold;
@@ -214,4 +215,16 @@ tr:hover{
 }
 .icone{
     list-style-image: url(../img/menu.gif);
+}
+footer{
+    text-align: center;
+    display: flex;
+}
+.des{
+    text-align: center;
+}
+.soc{
+    padding-top:2%;
+    height:2%;
+    width:2%;
 }
