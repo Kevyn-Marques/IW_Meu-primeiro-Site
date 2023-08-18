@@ -218,13 +218,13 @@ tr:hover{
 }
 footer{
     text-align: center;
-    display: flex;
+    display: block flex;
 }
 .des{
     text-align: center;
 }
 .soc{
-    padding-top:2%;
+    padding:1%;
     height:2%;
     width:2%;
 }
