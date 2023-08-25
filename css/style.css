@@ -41,15 +41,16 @@ h3{
     font-size:100%;
  }
 header{
+    position: relative;
     border-bottom: 2px solid gold;
     width:100%;
     background-color:#8D6116;
  }
 .logot {
-    width: 35%;
+    margin-bottom:4%;
+    width:25%;
     display: flex;
-    padding-left:30%;
-    padding-bottom:3%;
+
 } 
 .container{
     border-bottom: 2px solid gold;
@@ -96,17 +97,17 @@ footer{
     text-decoration: none;
     color: ghostwhite;
 }
+.ver{
+    margin-left:50%;
+}
 .menu{
-    display:flex;
-    justify-content:space-between;
-    margin-left:40%;
-    text-align:center;
+    padding:1%;
     text-decoration: none;
     color:ghostwhite;
     font-family: 'Castoro Titling', cursive ;
  }
  .m{
-    display: block;
+    display:inline;
     padding-top: 1%;
     padding-bottom: 1%;
  }
@@ -136,7 +137,7 @@ footer{
 .dir{
     float:right;
     width:30%;
-    margin-left: 2%;
+    margin-left:2%;
     margin-right:2%;
 }
 .linha{
@@ -152,7 +153,7 @@ footer{
         flex-direction: column;
     }
     .col-6{
-        width:100%;
+        width:80%;
     }
 }
 .git{
@@ -173,7 +174,7 @@ footer{
     margin-left:20%;
 }
 .img-card{
-    margin-left:10%;
+    margin-left:5%;
     margin-right:10%;
     background-image:  linear-gradient(to bottom right,#251412,#3B3637);
     width: 90%;
